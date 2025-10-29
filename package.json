@@ -1,0 +1,13 @@
+{
+  "name": "plugin-penpot",
+  "version": "1.0.0",
+  "description": "Client-side plugin using OpenAI-compatible API",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
