@@ -1,9 +1,8 @@
 {
-  "id": "ai-design-assistant",
-  "name": "AI Design Assistant",
-  "version": "1.0.0",
-  "description": "Ask AI to assist with your design directly inside Penpot.",
-  "entry": "index.html",
+  "name": "Jwero AI Designer",
+  "description": "Openai Compatible API",
+  "code": "/index.html",
+  "icon": "/icon.png",
   "permissions": [
     "content:read",
     "content:write",
