@@ -18,8 +18,7 @@
 // Ensure this script is included AFTER those elements in the HTML.
 
 (function () {
-  const BASE = 'http://116.72.105.227:1234/v1';
-
+  const BASE = '/api';
   // DOM refs (graceful fallback if element missing)
   const $ = id => document.getElementById(id);
   const modelSelect = $('modelSelect');
