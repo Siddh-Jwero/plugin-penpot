@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI → Penpot Plugin UI (Dev)</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>AI Design Assistant</h1>
+      <div class="controls-row">
+        <label class="model-label">
+          Model
+          <select id="modelSelect" class="model-select"></select>
+        </label>
+        <label class="mini">
+          Temp
+          <input id="temperature" type="range" min="0" max="1" step="0.05" value="0.7" />
+        </label>
+        <button id="refreshModels" title="Refresh model list">⟳</button>
+      </div>
+    </header>
+
+    <section id="chatArea" class="chat-area">
+      <div id="messages" class="messages"></div>
+    </section>
+
+    <footer class="composer">
+      <textarea id="prompt" placeholder="Ask the design assistant"></textarea>
+      <div class="composer-row">
+        <div class="left">
+          <label class="small">
+            System prompt
+            <input id="systemPrompt" type="text" placeholder='E.g. "You are a Penpot design assistant..."' />
+          </label>
+        </div>
+        <div class="right">
+          <button id="sendBtn">Send</button>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>window.OPENAI_KEY = "YOUR_OPENAI_KEY_HERE";</script>
+
+  <script src="/main.js"></script>
+</body>
+</html>

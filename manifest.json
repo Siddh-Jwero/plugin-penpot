@@ -1,0 +1,17 @@
+{
+  "id": "ai-design-assistant",
+  "name": "AI Design Assistant",
+  "version": "1.0.0",
+  "description": "Ask AI to assist with your design directly inside Penpot.",
+  "entry": "index.html",
+  "permissions": [
+    "content:read",
+    "content:write",
+    "library:read",
+    "library:write",
+    "user:read",
+    "comment:read",
+    "comment:write",
+    "allow:downloads"
+  ]
+}
